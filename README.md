@@ -143,7 +143,7 @@ MIT License
 - [📖 完整文档](docs/README.md)
 - [Coze 官方文档](https://www.coze.com/docs)
 - [Coze 开发者平台](https://www.coze.com/open)
-- [GitHub 仓库](https://github.com/coze-dev/coze-flutter)
+- [GitHub 仓库](https://github.com/vecharm/coze-flutter)
 
 ## 贡献
 

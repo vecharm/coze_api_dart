@@ -3,9 +3,9 @@ description: >-
   扣子 (Coze) API 的官方 Dart SDK。支持 Chat 对话、流式响应、WebSocket 实时通信、
   Bot 管理、工作流、文件上传等完整功能。兼容 Flutter 全平台和纯 Dart 后端。
 version: 0.1.0
-homepage: https://github.com/coze-dev/coze-flutter
-repository: https://github.com/coze-dev/coze-flutter
-issue_tracker: https://github.com/coze-dev/coze-flutter/issues
+homepage: https://github.com/vecharm/coze-flutter
+repository: https://github.com/vecharm/coze-flutter
+issue_tracker: https://github.com/vecharm/coze-flutter/issues
 
 environment:
   sdk: ^3.2.0
