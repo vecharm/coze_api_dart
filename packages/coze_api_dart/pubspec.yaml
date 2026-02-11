@@ -1,0 +1,66 @@
+name: coze_api_dart
+description: >-
+  扣子 (Coze) API 的官方 Dart SDK。支持 Chat 对话、流式响应、WebSocket 实时通信、
+  Bot 管理、工作流、文件上传等完整功能。兼容 Flutter 全平台和纯 Dart 后端。
+version: 0.1.0
+homepage: https://github.com/coze-dev/coze-flutter
+repository: https://github.com/coze-dev/coze-flutter
+issue_tracker: https://github.com/coze-dev/coze-flutter/issues
+
+environment:
+  sdk: ^3.2.0
+
+dependencies:
+  # HTTP 客户端
+  http: ^1.1.0
+
+  # HTTP 解析器（用于 multipart 文件上传）
+  http_parser: ^4.0.2
+
+  # WebSocket 支持
+  web_socket_channel: ^2.4.0
+
+  # JSON 序列化
+  json_annotation: ^4.8.1
+
+  # 加密库（用于 JWT 签名和 PKCE）
+  crypto: ^3.0.3
+
+  # 工具库
+  meta: ^1.9.1
+  
+dev_dependencies:
+  # 代码生成
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  
+  # 测试
+  test: ^1.24.0
+  mockito: ^5.4.4
+  
+  # 代码质量
+  lints: ^3.0.0
+
+# 代码生成配置
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          # 字段命名策略: snake_case 下划线命名
+          field_rename: snake
+          # 显式 toJson 方法
+          explicit_to_json: true
+          # 创建工厂构造函数
+          create_factory: true
+          # 创建 toJson 方法
+          create_to_json: true
+
+# 主题标签
+topics:
+  - coze
+  - chatbot
+  - ai
+  - llm
+  - websocket
+  - api
